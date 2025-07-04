@@ -1,0 +1,6 @@
+ville,date,temp_moyenne,temp_min,temp_max,temp_diff,humidite,vent,pluie,pluvieux,description_meteo
+Antananarivo,2025-07-04 06:18:21,14.08,14.08,14.08,0.0,67,4.12,0.0,False,scattered clouds
+Paris,2025-07-04 06:12:55,16.02,14.99,16.83,1.839999999999998,71,3.09,0.0,False,clear sky
+Tokyo,2025-07-04 06:13:41,33.0,31.79,33.69,1.8999999999999986,56,7.2,0.0,False,broken clouds
+New York,2025-07-04 06:08:39,20.85,17.94,21.98,4.039999999999999,76,3.6,0.0,False,clear sky
+Le Caire,2025-07-04 06:18:13,26.33,25.7,26.33,0.629999999999999,73,2.57,0.0,False,broken clouds

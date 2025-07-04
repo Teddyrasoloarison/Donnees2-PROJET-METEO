@@ -2,9 +2,11 @@ import requests
 import pandas as pd
 from datetime import datetime, timezone
 import os
+from dotenv import load_dotenv
 
 # === CONFIGURATION GÉNÉRALE ===
-API_KEY = "fc1f5102f96e2c4b8bbc233e3b808aa5"  
+load_dotenv()
+API_KEY =  os.getenv("OPENWEATHER_API_KEY")  
 CITIES = [  # Liste des villes à analyser
     {"name": "Antananarivo", "lat": -18.8792, "lon": 47.5079},
     {"name": "Paris", "lat": 48.8566, "lon": 2.3522},
